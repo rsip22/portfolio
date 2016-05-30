@@ -11,7 +11,12 @@ body {
 
 #about {
 	background-color: #FFFFFF;
-	padding: 1em;
+	padding-top: 1em;
+}
+
+#portfolio, #skills {
+	margin-top: 2em;
+
 }
 
 .contact {
@@ -35,12 +40,12 @@ p {
 	color: #1A1915;
 	text-shadow: 1px 1px #FFFFFF;
 	letter-spacing: 2px;
-	margin-top: 4em;
+	margin-top: 3em;
 }
 
 h2 {
 	margin-bottom: 1em;
-	margin-top: 1em;
+	margin-top: 3em;
 }
 
 figure {
@@ -53,7 +58,6 @@ figure {
 }
 
 footer {
-	display: block;
 	margin-top: 3em;
     bottom: 0px;
     width: 100%;
