@@ -1,0 +1,59 @@
+.jumbotron {
+	background: transparent;
+}
+
+body {
+	background-color: #B7DEFB;
+	background: url("../img/baby-blue-leather-texture-close-up.jpg") fixed;
+	background-size: cover;
+	color: #1A1915;
+}
+
+#about {
+	background-color: #FFFFFF;
+	padding: 1em;
+}
+
+.contact {
+	margin-top: 3em;
+	border: 1px solid black;
+	background-color: white;
+	-webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+.contact-text {
+	line-height: 1.7em;
+}
+
+p { 
+	margin: 0;
+}
+
+#title {
+	color: #1A1915;
+	text-shadow: 1px 1px #FFFFFF;
+	letter-spacing: 2px;
+	margin-top: 4em;
+}
+
+h2 {
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+
+figure {
+	border: 1px black solid;
+	background-color: white;
+	border-radius: .5em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	margin-bottom: 2em;
+}
+
+footer {
+	margin-top: 3em;
+    bottom: 0px;
+    width: 100%;
+}
