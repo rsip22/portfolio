@@ -53,6 +53,7 @@ figure {
 }
 
 footer {
+	display: block;
 	margin-top: 3em;
     bottom: 0px;
     width: 100%;
