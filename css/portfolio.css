@@ -19,6 +19,20 @@ body {
 
 }
 
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  .bgcover {
+      background-image: url('http://globe-views.com/dcim/dreams/winter/winter-04.jpg');
+      background-size: cover;
+    width: 100%;
+    height: 100%;
+  }
+}
+
 .contact {
 	margin-top: 3em;
 	border: 1px solid black;
