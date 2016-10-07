@@ -44,8 +44,12 @@ button {
   margin: .5em;
 }
 
-a button:hover,
-a button:focus {
+form {
+  display: inline-block;
+}
+
+button:hover,
+button:focus {
   text-decoration: underline;
   background-color: #7d97ad;
   color: #2d3c49;

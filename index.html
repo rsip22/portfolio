@@ -34,7 +34,7 @@
 
                 <div class="col-xs-12 col-sm-9 col-md-10 text-right text-thin">
                     <nav>
-                        <a class="page-scroll" href="#works">Works</a> |
+                        <a class="page-scroll" href="#work">Work</a> |
                         <a class="page-scroll" href="#skills">Skills</a> |
                         <a class="page-scroll" href="#contact">Contact</a>
                     </nav>
@@ -45,11 +45,17 @@
             
             <div class="row">
                 <div class="col-md-12">
-                    <img class="img-responsive" src="img/binary-woman.jpg" alt="Woman's face profile in front of binary code written in blue">
+                    <picture>
+                        <source srcset="img/binary-woman-small_0x.jpg" media="(max-width: 380px)">
+                        <source srcset="img/binary-woman_low-medium_1x.jpg" media="(max-width: 450px)">
+                        <source srcset="img/binary-woman_low-medium_2x.jpg" media="(max-width: 800px)">
+                        <source srcset="img/binary-woman.jpg">
+                        <img src="img/binary-woman.jpg" class="img-responsive" alt="Woman's face profile in front of binary code written in blue">
+                    </picture>
                 </div>
             </div>
             
-            <section id="works">
+            <section id="work">
                 <div class="row">
                     <div class="col-md-12 text-muted">
                         <h2>Featured Works</h2>
@@ -59,7 +65,11 @@
                 <div class="row text-center fadeInDown animated">
                     <article>
                         <div class="col-xs-12 col-sm-6 col-md-4">
-                            <img class="img-thumbnail brighten" src="img/aufem.png" alt="Autonomia Feminista Tecnologica website" data-toggle="modal" data-target="#aufem">
+                            <picture>
+                                <source srcset="img/aufem-small_0x.png" media="(max-width: 800px)">
+                                <source srcset="img/aufem.png">
+                                <img class="img-thumbnail" src="img/aufem.png" alt="Autonomia Feminista Tecnologica website" data-toggle="modal" data-target="#aufem">
+                            </picture>
                             <h3>Autonomia Feminista Tecnológica</h3>
                             <p><a href="https://naoenoveladasoito.com.br">naoenoveladasoito.com.br</a></p>
                         </div>
@@ -67,7 +77,11 @@
 
                     <article>
                         <div class="col-xs-12 col-sm-6 col-md-4">
-                            <img class="img-thumbnail brighten" src="img/pyladiespoa.png" alt="PyLadies Porto Alegre website" data-toggle="modal" data-target="#pyladiespoa">
+                            <picture>
+                                <source srcset="img/pyladiespoa-small_0x.png" media="(max-width: 800px)">
+                                <source srcset="img/pyladiespoa.png">
+                                <img class="img-thumbnail" src="img/pyladiespoa.png" alt="PyLadies Porto Alegre website" data-toggle="modal" data-target="#pyladiespoa">
+                            </picture>
                             <h3>PyLadies <br> Porto Alegre</h3>
                             <p><a href="http://pyladiespoa.pythonanywhere.com">pyladiespoa.pythonanywhere.com</a>
                             </p>
@@ -76,7 +90,11 @@
 
                     <article>
                         <div class="col-xs-12 col-sm-6 col-md-4">
-                            <img class="img-thumbnail brighten" src="img/saccol.png" alt="Saccol Lanches Bar e Pizzaria website" data-toggle="modal" data-target="#saccol">
+                            <picture>
+                                <source srcset="img/saccol-small_0x.png" media="(max-width: 800px)">
+                                <source srcset="img/saccol.png">
+                                <img class="img-thumbnail" src="img/saccol.png" alt="Saccol Lanches Bar e Pizzaria website" data-toggle="modal" data-target="#saccol">
+                            </picture>
                             <h3>Saccol Lanches<br>Bar e Pizzaria</h3>
                             <p><a href="http://rsip22.github.io/saccol">rsip22.github.io/saccol</a>
                             </p>
@@ -100,7 +118,7 @@
                             <p>HTML5</p>
                         </div>
                         <div class="col-xs-4 col-sm-3 col-md-2 col-lg-2 text-center">
-                            <img class="img-responsive" src="img/jquery.gif" alt="">
+                            <img class="img-responsive" src="img/jquery-small_0x.gif" alt="">
                             <p>jQuery</p>
                         </div>
                         <div class="col-xs-4 col-sm-3 col-md-2 col-lg-2 text-center">
@@ -112,11 +130,11 @@
                             <p>Grav</p>
                         </div>
                         <div class="col-xs-4 col-sm-3 col-md-2 col-lg-2 text-center">
-                            <img class="img-responsive" src="img/Python-logo-notext.svg.png" alt="">
+                            <img class="img-responsive" src="img/Python-logo-notext.svg-small_0x.png" alt="">
                             <p>Python</p>
                         </div>
                         <div class="col-xs-4 col-sm-3 col-md-2 col-lg-2 text-center">
-                            <img class="img-responsive" src="img/github-icon-180x180.png" alt="">
+                            <img class="img-responsive" src="img/github-icon-180x180-small_0x.png" alt="">
                             <p>Github</p>
                         </div>
                     </div>
@@ -141,10 +159,13 @@
                             <a href="mailto:rsip22@openmailbox.org">rsip22<span style="display:none">-anti-robot-bit</span>@openmailbox.org</a>
                         </address>
                         <p>GPG: 6A4A 7B73 7ABF 3CFE A368  BCAA 28E9 12B4 6A1A D2</p>
-                        <p><strong>Github</strong></p>
-                        <p><a href="https://www.github.com/rsip22">www.github.com/rsip22</a></p>
-                        <p><strong>Linkedin</strong></p>
-                        <p><a href="https://br.linkedin.com/in/rsip22">linkedin.com/in/rsip22</a></p>
+
+                        <form action="https://br.linkedin.com/in/rsip22" method="get">
+                            <button class="btn btn-lg">LinkedIn</button>
+                        </form>
+                        <form action="https://www.github.com/rsip22" method="get">
+                            <button class="btn btn-lg">Github</button>
+                        </form>
                     </div>
                 </div>
             </section>
@@ -168,7 +189,7 @@
                         <h4 class="modal-title">Autonomia Feminista Tecnológica</h4>
                     </div>
                     <div class="modal-body">
-                        <a href="https://naoenoveladasoito.com.br"><img class="img-responsive" src="img/aufem.png" alt="Autonomia Feminista Tecnológica"></a>
+                        <a href="https://naoenoveladasoito.com.br"><img class="img-responsive" src="img/aufem-small_0x.png" alt="Autonomia Feminista Tecnológica"></a>
                         <br>
                         <p class="text-center">Theme designed for a <a href="http://getgrav.org/">Grav CMS</a> website.</p>
                     </div>
@@ -187,7 +208,7 @@
                         <h4 class="modal-title">PyLadies Porto Alegre</h4>
                     </div>
                     <div class="modal-body">
-                        <a href="http://pyladiespoa.pythonanywhere.com"><img class="img-responsive" src="img/pyladiespoa.png" alt="Screen shot of the PyLadies POA website"></a>
+                        <a href="http://pyladiespoa.pythonanywhere.com"><img class="img-responsive" src="img/pyladiespoa-small_0x.png" alt="Screen shot of the PyLadies POA website"></a>
                         <br>
                         <p class="text-center">PyLadies Porto Alegre website built with Django + Bootstrap.</p>
                     </div>
@@ -206,7 +227,7 @@
                         <h4 class="modal-title">Saccol Lanches - Bar e Pizzaria</h4>
                     </div>
                     <div class="modal-body">
-                        <a href="http://rsip22.github.io/saccol"><img class="img-responsive" src="img/saccol.png" alt="Screen shot of the website Saccol"></a>
+                        <a href="http://rsip22.github.io/saccol"><img class="img-responsive" src="img/saccol-small_0x.png" alt="Screen shot of the website Saccol"></a>
                         <br>
                         <p class="text-center">Made with Bootstrap.</p>
                     </div>
