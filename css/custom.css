@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 @font-face {
   font-family: 'quicksandlight';
   src: url('../fonts/quicksand-light-webfont.woff2') format('woff2'),
@@ -16,10 +20,9 @@
 }
 
 body {
-  font-family: sans-serif;
   color: #2d3c49;
   font-weight: 300;
-  font-family: 'quicksandlight';
+  font-family: 'quicksandlight', serif;
 }
 
 nav {
@@ -35,6 +38,19 @@ p {
   font-size: 1.2em;
 }
 
+button {
+  min-height: 48px;
+  min-width: 48px;
+  margin: .5em;
+}
+
+a button:hover,
+a button:focus {
+  text-decoration: underline;
+  background-color: #7d97ad;
+  color: #2d3c49;
+}
+
 .text-thin {
   font-weight: 100;
 }
@@ -47,15 +63,6 @@ p {
   border-top: 2px solid #7d97ad;
   margin-top: .5em;
   margin-bottom: 1em;
-}
-
-.brighten {
-  opacity: .7;
-}
-
-.brighten:hover,
-.brighten:focus {
-  opacity: 1;
 }
 
 /* == Animate.css == */
