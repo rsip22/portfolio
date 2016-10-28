@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+}
+
+/* == Font styles == */
+@font-face {
+  font-family: "quicksandlight";
+  src: url(../fonts/quicksand-light-webfont.woff2) format("woff2"),
+       url(../fonts/quicksand-light-webfont.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "quicksandregular";
+  src: url(../fonts/quicksand-regular-webfont.woff2) format("woff2"),
+       url(../fonts/quicksand-regular-webfont.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.text-thin {
+  font-weight: 100;
+}
+
+.text-muted {
+  color: #7d97ad;
+}
+
+body {
+  color: #2d3c49;
+  font-weight: 300;
+  font-family: "quicksandlight", serif;
+}
+
+nav {
+  font-size: 1.1em;
+}
+
+h2 {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+/* == Divider == */
+.blue-gray {
+  border-top: 2px solid #7d97ad;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+}
+
+/* == Buttons == */
+.touch {
+  height: 48px;
+  padding-right: 1em;
+  padding-left: 1em;
+  margin: 0.5em;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #7d97ad;
+  color: #fff;
+}
+
+form {
+  display: inline-block;
+}
+
+/* == Works and skills (Animate.css) == */
+.animated {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInLeft {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+}
+
+@-webkit-keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
