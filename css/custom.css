@@ -46,6 +46,15 @@ p {
   font-size: 1.2em;
 }
 
+/* == Positions == */
+.higher-2 {
+  padding-top: 2em;
+}
+
+.skills {
+  height: 130px;
+}
+
 /* == Divider == */
 .blue-gray {
   border-top: 2px solid #7d97ad;
